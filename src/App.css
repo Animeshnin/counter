@@ -1,0 +1,63 @@
+body{
+    background-color: #edf6f9;
+    box-sizing: border-box;
+}
+
+.App{
+    height: 100vh;
+}
+
+.counter{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.count>p{
+    font-size: 150px;
+}
+
+.button__plus{
+    margin-left: 10px;
+}
+
+.button{
+    color: white;
+    font-size: 22px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.button__minus{
+    color: white;
+    background-color: #e63946;
+    box-shadow: 0 4px 0 #cf333f;
+    border: 1px solid #c4303c;
+    transition: 0.5s;
+
+}
+
+.button__plus{
+    color: #FFF;
+    background-color: #2a9d8f;
+    box-shadow: 0 4px 0 rgba(38, 141, 129, 1);
+    border: 1px solid #24857a;
+}
+
+.button:hover{
+    transform: translateY(-2px);
+}
+
+.button:active{
+    transform: translateY(2px);
+    border: none;
+}
